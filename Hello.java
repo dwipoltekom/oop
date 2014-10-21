@@ -10,5 +10,12 @@ package oop;
  * @author dwijonarko
  */
 public class Hello {
+    public String print(String world){
+        return "Hello "+world;
+    }
     
+    public static void main(String[] args) {
+        Hello h = new Hello();
+        System.out.println(h.print("World"));
+    }
 }
